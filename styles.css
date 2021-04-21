@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,500,700,700,300,200,700|Space+Grotesk:300,300,400|Montserrat');
+
+.Column {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    flex-direction: column;
+}
+
+.Button {
+    border-radius: 40px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+    margin-top: 24px;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    border-style: none;
+    margin-bottom: 0px;
+}
+
+i {
+    font-family: 'EB Garamond', serif;
+}
+
+h1 {
+    font-size: 86px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 24px;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    padding-right: 24px;
+    padding-bottom: 80px;
+    padding-left: 24px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    column-gap: 36px;
+}
+
+.Container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: stretch;
+    justify-content: center;
+    max-width: 1240px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Secondary {
+    background-color: #fbfbfb;
+}
+
+footer {
+    width: 100%;
+    padding: 24px;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.Text {
+    padding-right: 80px;
+}
+
+.Row {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.heading1-tmvku {
+    background-color: #d1a5a5;
+}
+
+.heading1-zqzjq {
+    background-color: #a96262;
+}
+
+.heading1-cua9t {
+    background-color: #b63a3a;
+}
+
+.body-uii4e {
+    flex-direction: row;
+}
+
+.Hero {
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    background-position-x: 50%;
+    background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/607ffe901f64913f6ca603e4/gradienta-cwcs7gWcRx8-unsplash.jpg');
+}
+
+.header-gix7t {
+    align-items: center;
+}
+
+.header-uozr0 {
+    justify-content: space-between;
+}
+
+.Form {
+    column-gap: 12px;
+}
+
+.Input {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.heading1-nzvoy {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #000000;
+    font-weight: 300;
+    text-align: left;
+}
+
+.italic-pck6e {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+}
+
+.paragraph-8zgmj {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.span-g9eqp {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+}
+
+.span-yzwr5 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+.span-zskfr {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    color: #000000;
+}
+
+.paragraph-xauhw {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 200;
+}
+
+.span-wuwfs {
+    color: #000000;
+    font-weight: 300;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.bold-cyq8s {
+    text-align: left;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.bold-va22a {
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    .Column {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .heading1-nzvoy {
+        font-size: 72px;
+        font-weight: 400;
+    }
+
+    .span-wuwfs {
+        color: #0e0e0e;
+        font-size: 24px;
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .paragraph-8zgmj {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+
+    .Column {
+        flex-direction: column;
+        text-indent: 0px;
+    }
+
+    .span-yzwr5 {
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    .span-j2348 {
+        background-color: #d4bcbc;
+    }
+
+    .bold-cyq8s {
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 700;
+    }
+
+    .bold-va22a {
+        font-weight: 300;
+    }
+}

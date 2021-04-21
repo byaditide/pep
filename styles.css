@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Space+Grotesk:300,300,400|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,500,700,700,300,200,700|Space+Grotesk:300,300,400|Montserrat');
 
 .Column {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    width: 50%;
+    width: 55%;
     flex-direction: column;
 }
 
@@ -141,6 +141,7 @@ a {
 
 .header-gix7t {
     align-items: center;
+    width: 90%;
 }
 
 .header-uozr0 {
@@ -169,7 +170,7 @@ a {
 }
 
 .paragraph-8zgmj {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     color: #000000;
     font-weight: 200;
     font-size: 24px;
@@ -182,14 +183,14 @@ a {
 }
 
 .span-yzwr5 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-weight: 500;
     font-size: 36px;
     color: #000000;
 }
 
 .span-zskfr {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-weight: 100;
     color: #000000;
 }
@@ -209,6 +210,7 @@ a {
     text-align: left;
     font-size: 56px;
     font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .bold-va22a {
@@ -217,6 +219,24 @@ a {
 
 .Button:hover {
     color: #fffcfc;
+}
+
+.italic-15jfw {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.heading1-0bmx1 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #000000;
+    font-size: 56px;
+}
+
+.italic-onp0k {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.italic-v8zl7 {
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -240,5 +260,33 @@ a {
 
     .span-zskfr {
         font-size: 14px;
+    }
+}
+
+@media (max-width:411px) {
+    .bold-cyq8s {
+        font-size: 52px;
+    }
+
+    .header-gix7t {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .paragraph-8zgmj {
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .bold-gx8oa {
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .span-yzwr5 {
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .header-gix7t {
+        width: 100%;
     }
 }

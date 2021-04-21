@@ -239,6 +239,14 @@ a {
     font-family: 'Space Grotesk', sans-serif;
 }
 
+.italic-7xgts {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.italic-plew5 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
 @media (max-width: 768px) {
     .Column {
         width: 100%;
@@ -270,6 +278,10 @@ a {
 
     .header-gix7t {
         width: 100%;
+    }
+
+    .heading1-0bmx1 {
+        font-size: 52px;
     }
 }
 

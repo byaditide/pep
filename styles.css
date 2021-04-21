@@ -9,9 +9,6 @@
 }
 
 .Button {
-    border-radius: 40px;
-    background-color: #000000;
-    color: #ffffff;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,8 +19,10 @@
     padding-right: 24px;
     padding-bottom: 16px;
     padding-left: 24px;
-    border-style: none;
     margin-bottom: 0px;
+    border-style: none;
+    border-color: #000000;
+    background-color: #000000;
 }
 
 i {
@@ -179,12 +178,13 @@ a {
 .span-g9eqp {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 500;
+    font-size: 24px;
 }
 
 .span-yzwr5 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
     color: #000000;
 }
 
@@ -201,7 +201,7 @@ a {
 
 .span-wuwfs {
     color: #000000;
-    font-weight: 300;
+    font-weight: 200;
     font-family: 'Space Grotesk', sans-serif;
 }
 
@@ -213,6 +213,10 @@ a {
 
 .bold-va22a {
     font-weight: 300;
+}
+
+.Button:hover {
+    color: #fffcfc;
 }
 
 @media (max-width: 768px) {

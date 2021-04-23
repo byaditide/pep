@@ -134,11 +134,11 @@ a {
 .Hero {
     background-size: cover;
     background-attachment: fixed;
-    color: #ffffff;
+    color: #DFD8CE;
     background-position-x: 50%;
 /*background: linear-gradient(115.58deg, #00FC19 0%, #1700A4 100.22%), radial-gradient(92.72% 100% at 50% 0%, #EBFFCB 0%, #651200 100%), radial-gradient(92.72% 100% at 50% 0%, #FAFF00 0%, #820000 100%), radial-gradient(109.21% 213.32% at 100% 0%, #FF4D00 0%, #00C2FF 100%), linear-gradient(127.43deg, #D50000 0%, #7856FF 100%);
 background-blend-mode: lighten, overlay, lighten, screen, normal;*/
-    background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/607ffe901f64913f6ca603e4/gradienta-cwcs7gWcRx8-unsplash.jpg');
+    /*background-image: url('https://relate-av4mfw.s3.us-east-2.amazonaws.com/607ffe901f64913f6ca603e4/gradienta-cwcs7gWcRx8-unsplash.jpg');*/
 /*background-image: url('bg.jpg');*/
 }
 
